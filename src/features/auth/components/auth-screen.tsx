@@ -9,6 +9,7 @@ import { Card } from "@/src/components/ui/card";
 export const AuthScreen = () => {
   const [state, setState] = useState<SignInFlow>("signIn");
 
+  //added the signup card and the signin card
   return (
     <div className='h-screen flex items-center justify-center bg-[#5C3B58] '>
       <div className='md:h-auto md:w-[420px] '>
